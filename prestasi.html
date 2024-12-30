@@ -10,10 +10,12 @@
     .navbar-brand img {
       width: 40px;
     }
+    .nav-link{
+      color: #fff;
+    }
     .header {
-      background-image: url('sekolah.png'); 
+      background: url('sekolah.png') no-repeat center center fixed; 
       background-size: cover;
-      background-position: center;
       text-align: center;
       color: white;
       padding: 200px 0;
@@ -31,6 +33,10 @@
     .agenda h2 {
       text-align: center;
       margin-bottom: 20px;
+    }
+    .thumbnail {
+        padding: 10px;
+        width: 100%;
     }
   </style>
 </head>
@@ -74,35 +80,43 @@
       </div>
     </div>
   </nav>
-  <!-- Visi & Misi Section -->
-  <section id="visi-misi">
-    <div class="container">
-      <h2 class="text-center mt-4">Visi</h2>
-      <div class="card shadow-sm">
-        <p>"Terwujudnya lulusan yang cerdas, aktif, kompetitif, adaptif, dan produktif berlandaskan iman dan takwa."</p>
+  <div class="container">
+    <div class="row row-cols-1 row-cols-md-2 g-4">
+      <div class="col">
+        <div class="card p-0 mb-3 mt-5">
+          <div class="card-header">
+            <img src="./assets/img/prestasi1.png" alt="prestasi" class="thumbnail" width="600px">
+          </div>
+        </div>
       </div>
-      <h2 class="text-center mt-4">Misi</h2>
-      <div class="card shadow-sm">
-        <ol>
-          <li>Menyiapkan sumber daya manusia yang cerdas dan kompeten baik hardskill maupun softskill.</li>
-          <li>Meningkatkan dan mengembangkan aktivitas serta kreativitas seluruh warga sekolah dalam berbagai kegiatan positif.</li>
-          <li>Mewujudkan manajemen pengelolaan yang efektif, efisien, transparan, akuntabel, dan layanan prima.</li>
-          <li>Menumbuhkan dan mengembangkan potensi serta kemampuan sumber daya manusia yang berdaya saing tinggi melalui berbagai kegiatan akademik maupun non-akademik.</li>
-          <li>Menyelenggarakan berbagai program kegiatan dalam upaya meningkatkan sumber daya manusia yang mampu menyesuaikan dengan perkembangan.</li>
-          <li>Mengembangkan sarana prasarana dan lingkungan sekolah yang menyenangkan sebagai wadah untuk menumbuhkembangkan daya kreasi dan inovasi guna menghasilkan produk teknologi tepat guna.</li>
-          <li>Membangun jiwa wirausaha yang handal melalui pembelajaran Teaching Factory (TEFA) dan Kelas Industri.</li>
-          <li>Menjalin dan mengembangkan kemitraan dengan industri dan dunia kerja (IDUKA) serta lembaga lainnya yang relevan.</li>
-          <li>Menanamkan dan membudayakan sikap dan perilaku yang baik pada aktivitas di sekolah maupun dalam kehidupan sehari-hari.</li>
-        </ol>
+      <div class="col">
+        <div class="card p-0 mb-3 mt-5">
+          <div class="card-header">
+            <img src="./assets/img/prestasi2.png" alt="prestasi" class="thumbnail" width="600px">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card p-0 my-5">
+          <div class="card-header">
+            <img src="./assets/img/prestasi3.png" alt="prestasi" class="thumbnail" width="600px">
+          </div>
+        </div>
+      </div>
+      <div class="col-4">
+        <div class="card p-0 my-5">
+          <div class="card-header">
+            <img src="./assets/img/prestasi4.png" alt="gambar" class="thumbnail" width="600px">
+          </div>
+        </div>
       </div>
     </div>
-  </section>
-
-  <!-- Footer -->
+  </div>
+    <!-- Footer -->
   <footer class="bg-success text-white text-center py-3">
     <p>&copy; 2024 SMKN 4 Tasikmalaya. All rights reserved.</p>
   </footer>
 
-  <script src=".boot/js/bootstrap.bundle.js"></script>
+    <script src="./boot/js/bootstrap.bundle.js"></script>
 </body>
 </html>

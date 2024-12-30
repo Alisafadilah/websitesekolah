@@ -55,7 +55,7 @@
             <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
               <li><a class="dropdown-item" href="visimisi.html">Visi Misi</a></li>
               <li><a class="dropdown-item" href="sejarah.html">Sejarah</a></li>
-              <li><a class="dropdown-item" href="jurusan.html">Jurusan</a></li>
+              <li><a class="dropdown-item" href="struktur-organisasi.html">Struktur Organisasi</a></li>
             </ul>
           </li>
           <li class="nav-item">
@@ -74,35 +74,63 @@
       </div>
     </div>
   </nav>
-  <!-- Visi & Misi Section -->
-  <section id="visi-misi">
-    <div class="container">
-      <h2 class="text-center mt-4">Visi</h2>
-      <div class="card shadow-sm">
-        <p>"Terwujudnya lulusan yang cerdas, aktif, kompetitif, adaptif, dan produktif berlandaskan iman dan takwa."</p>
-      </div>
-      <h2 class="text-center mt-4">Misi</h2>
-      <div class="card shadow-sm">
-        <ol>
-          <li>Menyiapkan sumber daya manusia yang cerdas dan kompeten baik hardskill maupun softskill.</li>
-          <li>Meningkatkan dan mengembangkan aktivitas serta kreativitas seluruh warga sekolah dalam berbagai kegiatan positif.</li>
-          <li>Mewujudkan manajemen pengelolaan yang efektif, efisien, transparan, akuntabel, dan layanan prima.</li>
-          <li>Menumbuhkan dan mengembangkan potensi serta kemampuan sumber daya manusia yang berdaya saing tinggi melalui berbagai kegiatan akademik maupun non-akademik.</li>
-          <li>Menyelenggarakan berbagai program kegiatan dalam upaya meningkatkan sumber daya manusia yang mampu menyesuaikan dengan perkembangan.</li>
-          <li>Mengembangkan sarana prasarana dan lingkungan sekolah yang menyenangkan sebagai wadah untuk menumbuhkembangkan daya kreasi dan inovasi guna menghasilkan produk teknologi tepat guna.</li>
-          <li>Membangun jiwa wirausaha yang handal melalui pembelajaran Teaching Factory (TEFA) dan Kelas Industri.</li>
-          <li>Menjalin dan mengembangkan kemitraan dengan industri dan dunia kerja (IDUKA) serta lembaga lainnya yang relevan.</li>
-          <li>Menanamkan dan membudayakan sikap dan perilaku yang baik pada aktivitas di sekolah maupun dalam kehidupan sehari-hari.</li>
-        </ol>
-      </div>
-    </div>
-  </section>
+  <main>
+     
+   <h2 class="section-title text-center my-4">Kontak Kami</h2>
+   <div class="container content">
+       <div class="row justify-content-center">
+           <div class="col-md-6">
+               <div class="card">
+                   <div class="card-body">
+                       <h3 class="card-title text-center">Formulir Kontak</h3>
+                       <form action="/submit-form" method="POST">
+                           <!-- Nama -->
+                           <div class="form-group">
+                               <label for="name">Nama Lengkap</label>
+                               <input type="text" class="form-control" id="name" name="name" required>
+                           </div>
+   
+                           <!-- Email -->
+                           <div class="form-group">
+                               <label for="email">Email</label>
+                               <input type="email" class="form-control" id="email" name="email" required>
+                           </div>
+   
+                           <!-- Pesan -->
+                           <div class="form-group">
+                               <label for="message">Pesan</label>
+                               <textarea class="form-control" id="message" name="message" rows="4" required></textarea>
+                           </div>
+   
+                           <!-- Kirim -->
+                           <button type="submit" class="btn btn-primary btn-block">Kirim Pesan</button>
+                       </form>
+                   </div>
+               </div>
+           </div>
+       </div>
+   
+       <div class="row justify-content-center mt-5">
+           <div class="col-md-6">
+               <h3 class="text-center">Alamat & Informasi Kontak</h3>
+               <p class="text-center">
+                   <strong>SMKN 4 Tasikmalaya</strong><br>
+                   Jl. Raya No.123, Tasikmalaya, Jawa Barat, Indonesia<br>
+                   <strong>Telepon:</strong> (0265) 123-4567<br>
+                   <strong>Email:</strong> info@smkn4tasikmalaya.sch.id
+               </p>
+           </div>
+       </div>
+   </div>
+         
 
-  <!-- Footer -->
+    <!-- Footer -->
   <footer class="bg-success text-white text-center py-3">
     <p>&copy; 2024 SMKN 4 Tasikmalaya. All rights reserved.</p>
   </footer>
 
-  <script src=".boot/js/bootstrap.bundle.js"></script>
+</main>
+
+  <script src="./boot/js/bootstrap.bundle.js"></script>
 </body>
 </html>
